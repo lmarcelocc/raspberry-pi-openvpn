@@ -1,10 +1,12 @@
 # OpenVPN check connection
 
-Script to test an OPENVPN connection on a Raspberry Pi Device
+Script to test an OPENVPN connection on a Raspberry Pi Device. It will check, periodically, if the tun0 exists and if it can get an valid IP address.
+
+If you have more tunnels or different names, be sure to fork this proejct and update the script to your needs.
 
 # Requirements
 
-- Git: `sudo apt-get install git`
+- Git: `sudo apt-get install git` on your Raspberry Pi Device.
 
 # Installation
 
@@ -22,7 +24,7 @@ If you want to receive notifications each time this script will try to restart y
 
 # Update
 
-To update just run `git pull` at `/home/pi/scripts/openvpn`
+To update this script just run `git pull` at `/home/pi/scripts/openvpn`
 
 # Uninstall
 
