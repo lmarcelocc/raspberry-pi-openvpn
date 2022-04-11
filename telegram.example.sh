@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "WITHIN TELEGRAM.sh"
-
 # Telegram Info
 telegramBotId=""
 telegramChatId=""
