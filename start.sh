@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Files permissions
+sudo chmod 644 check-openvpn-status.sh
+sudo chmod 644 delete-wget-files.sh
+
 # Check openvpn status script
 (
     crontab -l
