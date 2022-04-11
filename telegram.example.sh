@@ -10,6 +10,6 @@ myUser=""
 # Message
 message="OPENVPN_WAS_DOWN_TRYING_TO_RESTART"
 
-if [[ $telegramBotId && telegramChatId && myUser ]]; then
+if [[ $telegramBotId && $telegramChatId && $myUser ]]; then
     wget https://api.telegram.org/bot$telegramBotId/sendMessage?chat_id=-$telegramChatId"&"text=${message}_$myUser
 fi
