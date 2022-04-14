@@ -12,8 +12,9 @@ If you have more tunnels or different names, be sure to fork this proejct and up
 
 - Go to `/home/pi/scripts/` and clone the project with the following command:
   `git clone https://github.com/lmarcelocc/raspberry-pi-openvpn.git openvpn`
+- Go into the cloned folder `cd openvpn`
 - Update file permission to allow it to be executed: `sudo chmod 755 start.sh`
-- Run update-crontab.sh with following command `./start.sh`
+- Run start.sh script with following command `./start.sh`
 
 # Telegram
 
