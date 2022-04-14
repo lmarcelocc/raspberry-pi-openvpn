@@ -10,6 +10,7 @@ If you have more tunnels or different names, be sure to fork this proejct and up
 
 # Installation
 
+- Create a folder named `scripts` with: `mkdir /home/pi/scripts/`
 - Go to `/home/pi/scripts/` and clone the project with the following command:
   `git clone https://github.com/lmarcelocc/raspberry-pi-openvpn.git openvpn`
 - Go into the cloned folder `cd openvpn`
